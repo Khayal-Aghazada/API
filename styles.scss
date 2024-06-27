@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: greenyellow;
+
+    .increment, .decrement, .remove {
+        position: fixed;
+        padding: 10px 20px;
+        font-size: 1em;
+        cursor: pointer;
+    }
+
+    .increment {
+        top: 30px;
+        left: 50px;
+    }
+
+    .decrement {
+        top: 30px;
+        left: 350px;
+    }
+
+    .remove {
+        top: 30px;
+        right: 50px;
+    }
+
+    .input {
+        position: fixed;
+        top: 90px;
+        left: 50px;
+        padding: 10px;
+        font-size: 1em;
+    }
+
+    .contaBox {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        padding: 20px;
+        
+        .box {
+            background-color: white;
+            border-radius: 10px;
+            padding: 20px;
+            width: 250px;
+            text-align: center;
+        
+            .imgBox img {
+                width: 100%;
+                border-radius: 10px;
+            }
+        }
+
+        h1 {
+            font-size: 1.5em;
+            margin: 10px 0;
+        }
+
+        span {
+            display: block;
+            font-size: 1.2em;
+            margin: 10px 0;
+        }
+
+        p {
+            font-size: 0.9em;
+        }
+    }
+}

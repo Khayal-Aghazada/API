@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: greenyellow;
+}
+body .increment, body .decrement, body .remove {
+  position: fixed;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+}
+body .increment {
+  top: 30px;
+  left: 50px;
+}
+body .decrement {
+  top: 30px;
+  left: 350px;
+}
+body .remove {
+  top: 30px;
+  right: 50px;
+}
+body .input {
+  position: fixed;
+  top: 90px;
+  left: 50px;
+  padding: 10px;
+  font-size: 1em;
+}
+body .contaBox {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+body .contaBox .box {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  width: 250px;
+  text-align: center;
+}
+body .contaBox .box .imgBox img {
+  width: 100%;
+  border-radius: 10px;
+}
+body .contaBox h1 {
+  font-size: 1.5em;
+  margin: 10px 0;
+}
+body .contaBox span {
+  display: block;
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+body .contaBox p {
+  font-size: 0.9em;
+}/*# sourceMappingURL=styles.css.map */
